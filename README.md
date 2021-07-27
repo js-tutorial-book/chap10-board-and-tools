@@ -1,22 +1,30 @@
 # chap10-board-and-tools
-10장, 11장 게시판 만들기 및 개발 도구 예제
+11장 bundler(webpack) 적용
 
-게시판 만들기 및 각각의 개발 도구 적용 예제는 아래의 브랜치에서 단계별로 확인할 수 있습니다.
+webpack 번들러를 적용하여 개발 서버를 띄우고 빌드하는 방법을 알아보는 단계입니다.
 
-## 게시판 만들기
-https://github.com/js-tutorial-book/chap10-board-and-tools/tree/plain
+> 편의를 위해 모든 예제에서 개발 IDE는 VS Code를 사용한다고 가정합니다.
 
-## npm 환경 적용
-https://github.com/js-tutorial-book/chap10-board-and-tools/tree/npm
+## 실행 방법
 
-## bundler 적용
-https://github.com/js-tutorial-book/chap10-board-and-tools/tree/bundler
+### 의존성 설치
+```sh
+npm ci
+// or
+npm install
+```
+### 개발 서버 실행
 
-## babel 적용
-https://github.com/js-tutorial-book/chap10-board-and-tools/tree/babel
+```sh
+npm run serve
+```
 
-## sass 적용
-https://github.com/js-tutorial-book/chap10-board-and-tools/tree/sass
-
-## lint, prettier 적용
-https://github.com/js-tutorial-book/chap10-board-and-tools/tree/lint-prettier
+### 빌드
+1. 개발 모드 빌드
+```sh
+build:dev
+```
+2. 프로덕션 모드 빌드
+```sh
+build:prod
+```

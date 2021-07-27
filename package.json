@@ -1,0 +1,18 @@
+{
+  "name": "tools-example",
+  "version": "1.0.0",
+  "description": "development tools example - npm, webpack, babel, scss",
+  "scripts": {
+    "my-script": "node ./myScript.js"
+  },
+  "author": "jung han, jaesung lee",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/js-tutorial-book/chap10-board-and-tools.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/js-tutorial-book/chap10-board-and-tools/issues"
+  },
+  "homepage": "https://github.com/js-tutorial-book/chap10-board-and-tools#readme"
+}
